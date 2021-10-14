@@ -1,0 +1,223 @@
+
+body {
+ background-color: #d9a0d5;
+ background-image: linear-gradient(#ffe0fe, #fbffd6);
+}
+
+p {
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+#container{
+	box-shadow: 5px 10px 18px #888888;
+	width: 1100px;
+	margin: 0 auto;
+
+}
+header{
+	font-family: 'Amatic SC', cursive;
+	background-color: #c2a9cc;
+	padding: 0px;
+}
+header h2{
+	margin: 0;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c2a9cc;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+
+nav li a:hover {
+  box-shadow: 5px 10px 18px #a486b0;
+  background-color: #fce6ff;
+}
+footer{
+	width: 1100px;
+	background-color: transparent;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: auto;
+}
+footer p{
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	margin: right;
+}
+#creative {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 45%;
+	width: 500px;
+	height: 500px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#film {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 45%;
+	width: 480px;
+	height: 500px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#meeting {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 50px;
+	width: 600px;
+	height: 400px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#idea {
+	box-shadow: 5px 10px 18px #888888;
+	width: 500px;
+	height: 600px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#bouncy {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 50px;
+	width: 600px;
+	height: 400px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#designer {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 50px;
+	width: 600px;
+	height: 400px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#ball {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 45%;
+	width: 500px;
+	height: 500px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#car-engine {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 45%;
+	width: 480px;
+	height: 500px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#self-pic {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 45%;
+	width: 480px;
+	height: 500px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#maya-ball-bounce {
+		width: 400px;
+		height: 500px;
+		padding-right: 40px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 40px;
+		
+		}
+#dash-pic {
+	box-shadow: 5px 10px 18px #888888;
+	width: 400px;
+	height: 600px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#northwestern {
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 50px;
+	width: 600px;
+	height: 400px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#animator {
+	box-shadow: 5px 10px 18px #888888;
+	width: 500px;
+	height: 600px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#new-york {
+	box-shadow: 5px 10px 18px #888888;
+	width: 500px;
+	height: 600px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+ .column {
+	display: grid;
+	grid-template-columns: 100%;
+	padding: 40px;
+	background-color: #fce6ff;
+}
+.two-column {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 20px;
+	background-color: white;
+	text-align: justify;
+}
+.two-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.three-column{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 0px;
+	background-color: white;
+}
+.three-column div{
+	background-color: clear;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
